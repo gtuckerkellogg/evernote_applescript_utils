@@ -68,3 +68,13 @@ multiple instances of the same name.  It seems to behave OK, so when I
 get a chance I'll strip out the duplicates.
 
 Anyway, let me know if you see bugs.
+
+
+Acknowledgements
+-----------------
+
+Justin Lancy's [veritrope](http:/www.veritrope.com) is the best source
+for Evernote AppleScripts, and is where I got familiar with the
+problems others were having.  In particular the simple sort routine I
+use is from Justin.  I'd put all my scripts directly on Veitrope, but
+if I don't use git I'm lost.  So they are here
