@@ -1,5 +1,3 @@
-#-*- Mode: Markdown -*-
-
 AppleScript Utils for Evernote
 ==============================
 
@@ -9,24 +7,24 @@ on my Mac run more smoothly.
 The scripts
 -----------
 
-### `en-multi-tag.scpt`
+### Tag multiple notes `en-multi-tag.scpt`
 
 
 Allows tagging multiple notes with multiple tags, like the Ctrl-Alt-T keyboard shortcut on the Windows client.
 
 
-### `en_templates.scpt`
+### Create notes from templates `en_templates.scpt`
 
 Allows creation of notes from templates.  Any notes with a specified
 tag (default `template`) and in a specified folder (default `meta`)
 
-### `add_text_to_note_titles.scpt`
+### Add text to multiple note titles `add_text_to_note_titles.scpt`
 
 Some people use keywords within note titles in addition to tags.  This
 script will add arbitrary text to the titles of all selected notes.
 The text can be added to the beginning or the end of the title.
 
-## Tag Groups `EN-Tag-Groups.scpt`
+### Tag multiple notes using "Tag Groups" `EN-Tag-Groups.scpt`
 
 There are (at least) two camps within the Evernote user community
 concerning the best way to tag notes.  Some people use a *lot* of tags,
