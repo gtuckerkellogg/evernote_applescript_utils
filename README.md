@@ -24,7 +24,7 @@ Some people use keywords within note titles in addition to tags.  This
 script will add arbitrary text to the titles of all selected notes.
 The text can be added to the beginning or the end of the title.
 
-### Tag multiple notes using "Tag Groups" `EN-Tag-Groups.applescript`
+### Tag multiple notes using "Tag Groups" `EN_Tag_Groups.applescript`
 
 There are (at least) two camps within the Evernote user community
 concerning the best way to tag notes.  Some people use a *lot* of tags,
@@ -62,8 +62,8 @@ Bugs and Limitations
 
 There are probably bugs.  Some of them are probaby mine.  But one of
 the ones I know of is Evernote's: if you see the same tag appearing
-multiple times in a list, that's an Evernote Applscript bug.  Tags
-must have unique names, but Evernote's Applscript interface returns
+multiple times in a list, that's an Evernote Applescript bug.  Tags
+must have unique names, but Evernote's Applescript interface returns
 multiple instances of the same name.  It seems to behave OK, so when I
 get a chance I'll strip out the duplicates.
 
