@@ -52,7 +52,7 @@ Just copying these scripts to a place where you can use them will work
 at its most basic level.  However, if you want to get them to work as
 shortcut keys within Evernote, you need to 
 
-1. Save each script as an Application
+1. Save each script as an Application 
    
    You can do this by opening a Terminal and typing "rake".  The
    applications will all be in the `build` folder. 
@@ -68,16 +68,18 @@ that they will appear under the *Evernote->Services* menu.
 Bugs and Limitations
 ---------------------
 
-
-There are probably bugs.  Some of them are probaby mine.  But one of
-the ones I know of is Evernote's: if you see the same tag appearing
-multiple times in a list, that's an Evernote Applescript bug.  Tags
-must have unique names, but Evernote's Applescript interface returns
-multiple instances of the same name.  It seems to behave OK, so when I
-get a chance I'll strip out the duplicates.
-
+There are probably bugs.  Some of them are probaby mine.
 Anyway, let me know if you see bugs.
 
+### Why save these scripts as Applications instead of running AppleScript services?
+
+Scripts run from Automator by a "run AppleScript" service pasted in to
+the Automator window sometimes have undocumented limitations, even
+though they work fine when run directly.  This has been reported by a
+variety of AppleScript users and developers.  The workaround to get
+keyboard shortcuts and working "Services" menu pulldowns is to save
+them as Applications, as described above, and have the service run the
+Application.
 
 Acknowledgements
 -----------------
