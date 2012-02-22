@@ -1,29 +1,36 @@
 (*
-
 gtuckerkellogg   gmail com
+Time-stamp: <2012-02-22 22:23:59 gtuckerkellogg>
+$Id$
 
 This is a application to assign Evernote tags in groups or sets
 
-I commonly use collections of tags, and I like to remember what they are.
-With this I can assign groups of tags together.  I usually also save a search for each group of tag.
-The nice thing about this is that I can use common names for tags that recur, while still retaining
+I commonly use collections of tags, and I like to remember what they
+are.  With this I can assign groups of tags together.  I usually also
+save a search for each group of tag.  The nice thing about this is
+that I can use common names for tags that recur, while still retaining
 the specificity that comes with multiple tags.
 
-The first time you run it will ask you to create a new group.  There is a configuration screen that comes up when
-running and cancelling the selection.  Finally, you can create a new note in your default notebook
-that will take a snapshot of your current tag groups.
+The first time you run it will ask you to create a new group.  There
+is a configuration screen that comes up when running and cancelling
+the selection.  Finally, you can create a new note in your default
+notebook that will take a snapshot of your current tag groups.
 
-This must be saved as an Application for tag groups to be persistent.  To call it from an Evernote menu system, 
-do the following:
+This must be saved as an Application for tag groups to be persistent.
+To call it from an Evernote menu system, do the following:
 
-1. Open this script in the AppleScript editor and save it as an application
-2. Open Automator and create an Automator service for Evernote to run the application
+1. Open this script in the AppleScript editor and save it as an
+   application
 
-It will then appear in the Evernote->Services menu
+2. Open Automator and create an Automator service for
+   Evernote to run the application
+
+   It will then appear in the Evernote->Services menu
 
 Optionally,
 
-3. Open Services preferences and assign a keyboard shortcut to the menu item
+3. Open Services preferences and assign a keyboard shortcut to the
+   menu item
 
 *)
 
