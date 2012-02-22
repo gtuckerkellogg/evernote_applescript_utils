@@ -53,8 +53,17 @@ at its most basic level.  However, if you want to get them to work as
 shortcut keys within Evernote, you need to 
 
 1. Save each script as an Application
-2. Create a service using Automator for each Application
+   
+   You can do this by opening a Terminal and typing "rake".  The
+   applications will all be in the `build` folder. 
+
+2. Create a service using Automator for each Application 
+
 3. Associate the name of the service with a keyboard shortcut
+
+Instead of 2 and 3, you could just use TextExpander or your favorite
+keyboard shortcut approach.  The only advantage with using Services is
+that they will appear under the *Evernote->Services* menu.
 
 Bugs and Limitations
 ---------------------
