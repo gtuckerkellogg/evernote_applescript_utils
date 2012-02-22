@@ -1,6 +1,7 @@
 -- -*- mode: Applescript -*-
 -- Editing a Group of note titles
--- 
+-- Author: Greg Tucker-Kellogg gtuckerkellogg@gmail.com
+-- Time-stamp: <2012-02-22 15:37:37 gtuckerkellogg>
 -- This is an AppleScript for manipulation of a set of Evernote notes.
 -- When run, it modifies the titles of all selected notes by adding
 -- text entered by the user.  The text can be added to the beginning
@@ -10,13 +11,11 @@ on run {}
 	tell application "Evernote"
 		set selected_notes to selection
 		if selected_notes is not equal to {} then
-				set prefix to ""
+			set prefix to ""
 			set suffix to ""
-			set add_result to display dialog "text to be added" default answer
-				"" buttons {"Cancel", "Prepend", "Append"}
-				default button 
-				"Append" with title "Add text to titles of selected notes"
-			
+			set add_result to display dialog Â
+				"text to be added" default answer "" buttons {"Cancel", "Prepend", "Append"} Â
+				default button "Append" with title "Add text to titles of selected notes"
 			if (button returned of add_result) is not equal to "Cancel" then
 				if button returned of add_result is equal to "Prepend" then
 					set prefix to text returned of add_result & " "
