@@ -65,6 +65,15 @@ Instead of 2 and 3, you could just use TextExpander or your favorite
 keyboard shortcut approach.  The only advantage with using Services is
 that they will appear under the *Evernote->Services* menu.
 
+A trivial gist for org-mode users
+----------
+
+For folks who use Emacs org-mode, I have a trivial
+[AppleScript gist](https://gist.github.com/1790180) which will copy an
+Evernote note link to a form used by org.  You may be wondering why
+this README is written in Markdown and not in Org.  Truly no good
+reason.
+
 Bugs and Limitations
 ---------------------
 
